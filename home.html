@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@0,100;0,900;1,100;1,300;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img class="fluid" src="assets/img/logo.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item text-sm-center pd-sm-1 text-xs-center active ">
+                            <a class="nav-link text-uppercase" href="#">Trang chủ<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item text-sm-center pd-sm-1 text-xs-center">
+                            <a class="nav-link text-uppercase" href="#">Thịt tươi</a>
+                        </li>
+                        <li class="nav-item text-sm-center pd-sm-1 text-xs-center">
+                            <a class="nav-link text-uppercase" href="#">Rau sạch</a>
+                        </li>
+                        <li class="nav-item text-sm-center pd-sm-1 text-xs-center">
+                            <a class="nav-link text-uppercase" href="#">Quả ngọt</a>
+                        </li>
+                        <li class="nav-item text-sm-center pd-sm-1 text-xs-center">
+                            <a class="nav-link text-uppercase" href="#">Cẩm nang</a>
+                        </li>
+                        <li class="nav-item text-sm-center pd-sm-1 text-xs-center">
+                            <a class="nav-link text-uppercase " href="#">Liên hệ</a>
+                        </li>
+                        <li class="nav-item text-sm-center pd-sm-1 text-xs-center">
+                            <a class="nav-link text-uppercase" href="#">Thanh toán</a>
+                        </li>
+                        <li class="nav-item text-sm-center pd-sm-1 text-xs-center">
+                            <a class="icon nav-link text-uppercase" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </li>
+                        <li class="nav-item text-sm-center pd-sm-1 text-xs-center">
+                            <a class="icon nav-link text-uppercase " href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="slider">
+        <div id="carouselSlider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselSlider" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselSlider" data-slide-to="1"></li>
+                <li data-target="#carouselSlider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="assets/img/slider.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/img/slider.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/img/slider.png" alt="Third slide">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="category">
+            <div class="container">
+                <div class="row">
+                    <div id="category-item-1" class="category-item col-md-4 col-sm-12 text-sm-center text-xs-center mb-sm-5 mb-md-0 mb-xs-5">
+                        <img class="category-item-thumb img-fluid" src="assets/img/featured-1.png" alt="">
+                        <a href="" class="category--link text-center d-block">Thực phẩm</a>
+                    </div>
+                    <div id="category-item-2" class=" category-item col-md-4 col-sm-12 text-sm-center text-xs-center mb-sm-5 mb-md-0 mb-xs-5">
+                        <img class="category-item-thumb img-fluid" src="assets/img/featured-2.png" alt="">
+                        <a href="" class="category--link text-center d-block">Rau sạch</a>
+                    </div>
+                    <div id="category-item-3" class=" category-item col-md-4 col-sm-12 text-sm-center text-xs-center mb-sm-5 mb-md-0 mb-xs-5">
+                        <img class="category-item-thumb img-fluid" src="assets/img/featured-3.png" alt="">
+                        <a href="" class="category--link text-center d-block">Trái cây</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="new-product">
+            <div class="container text-center">
+                <h1 class="section-title">Thực phẩm mới nhất</h1>
+                <img src="assets/img/section-thumb-1.png" alt="" class="section-thumb">
+                <div id="carouselNewProduct" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-sm-6 col-lg-3 mb-sm-4 mb-lg-0 mb-xs-5">
+                                    <div class="new-product-item card">
+                                        <img class="item-thumb card-img-top img-fluid" src="assets/img/item-1.png" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="name-item">Xà lách Lâm Đồng</h4>
+                                            <span class="price">25.000 VNĐ</span>
+                                            <a href="" class="insert-on-cart">Thêm vào giỏ hàng</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-3 mb-xs-5">
+                                    <div class="new-product-item card">
+                                        <img class="item-thumb card-img-top img-fluid" src="assets/img/item-2.png" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="name-item">Dẻ sường bò Úc</h4>
+                                            <span class="price">25.000 VNĐ</span>
+                                            <a href="" class="insert-on-cart">Thêm vào giỏ hàng</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-3 mb-xs-5">
+                                    <div class="new-product-item card">
+                                        <img class="item-thumb card-img-top img-fluid" src="assets/img/item-3.png" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="name-item">Nho đen Mỹ</h4>
+                                            <span class="price">25.000 VNĐ</span>
+                                            <a href="" class="insert-on-cart">Thêm vào giỏ hàng</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-3 mb-xs-5">
+                                    <div class="new-product-item card">
+                                        <img class="item-thumb card-img-top img-fluid" src="assets/img/item-4.png" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="name-item">Ngao trắng</h4>
+                                            <span class="price">25.000 VNĐ</span>
+                                            <a href="" class="insert-on-cart">Thêm vào giỏ hàng</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-sm-6 col-lg-3 mb-sm-4 mb-lg-0 mb-xs-5">
+                                    <div class="new-product-item card">
+                                        <img class="item-thumb card-img-top img-fluid" src="assets/img/item-1.png" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="name-item">Xà lách Lâm Đồng</h4>
+                                            <span class="price">25.000 VNĐ</span>
+                                            <a href="" class="insert-on-cart">Thêm vào giỏ hàng</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-3 mb-xs-5">
+                                    <div class="new-product-item card">
+                                        <img class="item-thumb card-img-top img-fluid" src="assets/img/item-3.png" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="name-item">Dẻ sường bò Úc</h4>
+                                            <span class="price">25.000 VNĐ</span>
+                                            <a href="" class="insert-on-cart">Thêm vào giỏ hàng</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-3 mb-xs-5">
+                                    <div class="new-product-item card">
+                                        <img class="item-thumb card-img-top img-fluid" src="assets/img/item-2.png" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="name-item">Nho đen Mỹ</h4>
+                                            <span class="price">25.000 VNĐ</span>
+                                            <a href="" class="insert-on-cart">Thêm vào giỏ hàng</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-3 mb-xs-5">
+                                    <div class="new-product-item card">
+                                        <img class="item-thumb card-img-top img-fluid" src="assets/img/item-4.png" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="name-item">Ngao trắng</h4>
+                                            <span class="price">25.000 VNĐ</span>
+                                            <a href="" class="insert-on-cart">Thêm vào giỏ hàng</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-sm-6 col-lg-3 mb-xs-5">
+                                    <div class="new-product-item card">
+                                        <img class="item-thumb card-img-top img-fluid" src="assets/img/item-4.png" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="name-item">Xà lách Lâm Đồng</h4>
+                                            <span class="price">25.000 VNĐ</span>
+                                            <a href="" class="insert-on-cart">Thêm vào giỏ hàng</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-3 mb-xs-5">
+                                    <div class="new-product-item card">
+                                        <img class="item-thumb card-img-top img-fluid" src="assets/img/item-2.png" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="name-item">Dẻ sường bò Úc</h4>
+                                            <span class="price">25.000 VNĐ</span>
+                                            <a href="" class="insert-on-cart">Thêm vào giỏ hàng</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-3 mb-xs-5">
+                                    <div class="new-product-item card">
+                                        <img class="item-thumb card-img-top img-fluid" src="assets/img/item-1.png" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="name-item">Nho đen Mỹ</h4>
+                                            <span class="price">25.000 VNĐ</span>
+                                            <a href="" class="insert-on-cart">Thêm vào giỏ hàng</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-3 mb-xs-5">
+                                    <div class="new-product-item card">
+                                        <img class="item-thumb card-img-top img-fluid" src="assets/img/item-3.png" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="name-item">Ngao trắng</h4>
+                                            <span class="price">25.000 VNĐ</span>
+                                            <a href="" class="insert-on-cart">Thêm vào giỏ hàng</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselNewProduct" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa-solid fa-angle-left"></i></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselNewProduct" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"><i class="fa-solid fa-angle-right"></i></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="handcook">
+            <div class="container">
+                <h4 class="section-title text-center">Cẩm nang nấu ăn</h4>
+                <div class="text-center"><img src="assets/img/section-thumb-2.png" alt="" class="section-thumb"></div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 mb-sm-5 mb-md-0">
+                        <div class="new-product-item card">
+                            <img class="item-thumb card-img-top img-fluid" src="assets/img/handcook-1.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="handcook-name">Thịt bò hầm nấm</h4>
+                                <p class="handcook-description">Chúng ta vẫn biết rằng, làm việc với một đoạn văn bản dễ đọc và rõ nghĩa dễ gây rối trí và cản trở việc tập trung vào yếu tố trình bày văn bản [...]</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 mb-sm-5 mb-md-0">
+                        <div class="new-product-item card">
+                            <img class="item-thumb card-img-top img-fluid" src="assets/img/handcook-2.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="handcook-name">Dạ dày trộn cay</h4>
+                                <p class="handcook-description">Chúng ta vẫn biết rằng, làm việc với một đoạn văn bản dễ đọc và rõ nghĩa dễ gây rối trí và cản trở việc tập trung vào yếu tố trình bày văn bản [...]</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 mb-sm-5 mb-md-0">
+                        <div class="new-product-item card">
+                            <img class="item-thumb card-img-top img-fluid" src="assets/img/handcook-3.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="handcook-name">Bí quyết nấu ăn ngon</h4>
+                                <p class="handcook-description">Chúng ta vẫn biết rằng, làm việc với một đoạn văn bản dễ đọc và rõ nghĩa dễ gây rối trí và cản trở việc tập trung vào yếu tố trình bày văn bản [...]</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="branch">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4">
+                        <h1 class="name-branch">Trụ sở chính</h1>
+                        <p class="street">Số 6A8A, Thanh Xuân Bắc, Phường Thanh Xuân Bắc, Quận Thanh Xuân, Thành phố Hà Nội.
+                        </p>
+                        <p class="phone">Điện thoại: 04.3311.3998</p>
+                        <p class="fax">Fax: 04.3311.3996</p>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <h1 class="name-branch">Chi nhánh Đà Nẵng</h1>
+                        <p class="street">Số 6A8A, Thanh Xuân Bắc, Phường Thanh Xuân Bắc, Quận Thanh Xuân, Thành phố Hà Nội.
+                        </p>
+                        <p class="phone">Điện thoại: 04.3311.3998</p>
+                        <p class="fax">Fax: 04.3311.3996</p>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <h1 class="name-branch">Chi nhánh Hồ Chí Minh</h1>
+                        <p class="street">Số 6A8A, Thanh Xuân Bắc, Phường Thanh Xuân Bắc, Quận Thanh Xuân, Thành phố Hà Nội.
+                        </p>
+                        <p class="phone">Điện thoại: 04.3311.3998</p>
+                        <p class="fax">Fax: 04.3311.3996</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right text-center">
+            Copyright © 2016 - All rights reserved
+        </div>
+    </div>
+</body>
+
+</html>

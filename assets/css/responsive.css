@@ -1,0 +1,10 @@
+@media (max-width: 576px) {
+    .text-xs-center {
+        text-align: center;
+    }
+
+    .mb-xs-5 {
+        margin-bottom: 20px;
+    }
+
+}

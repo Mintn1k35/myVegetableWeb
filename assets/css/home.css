@@ -1,0 +1,194 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*====HEADER=====*/
+.header {
+    background-color: #80b435 !important;
+}
+
+.header .navbar-dark .navbar-nav .nav-link {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.icon {
+    font-size: 15px;
+}
+
+.header .navbar-dark .navbar-nav .nav-item:hover>.nav-link,
+.nav-item.active {
+    opacity: 0.5;
+}
+
+.header .navbar-dark .navbar-toggler-icon {
+    background-image: none;
+    margin-top: 1px;
+    color: #ffffff;
+}
+
+.navbar-toggler-icon i {
+    font-size: 30px;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: #ffffff;
+}
+
+/*===SLIDER====*/
+.slider .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+/*======CONTENT======*/
+/*----Category------*/
+.category {
+    padding: 50px 0;
+    position: relative;
+}
+
+.category--link {
+    font-size: 18px;
+    color: #333333;
+    font-weight: 600;
+    background-color: #ffffff;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+.category--link:hover {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+/*-----New-product-----*/
+.new-product {
+    padding: 50px 0;
+    background: #80b435;
+}
+
+.new-product-item {
+    transition: all .3s;
+}
+
+.new-product-item:hover {
+    transform: scale(1.05, 1.05);
+    cursor: pointer;
+}
+
+.section-title {
+    font-size: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.section-thumb {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.item-thumb {
+    border-bottom: 1px solid #333333;
+}
+
+.name-item {
+    font-size: 20px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 15px;
+    color: #333333;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.insert-on-cart {
+    color: #a70b0b;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background: transparent;
+    width: 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    position: relative;
+    background-image: none;
+    font-size: 35px;
+    color: #333333;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-control-prev-icon i,
+.carousel-control-next-icon i {
+    position: absolute;
+    padding: 10px;
+    background: #ffffff;
+    z-index: 999;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-next-icon i {
+    right: -15px;
+}
+
+.carousel-control-prev-icon i {
+    left: -15px;
+}
+
+/*---Handcook----*/
+.handcook {
+    padding: 50px 0;
+}
+
+.handcook .section-title {
+    color: #333;
+}
+
+.handcook-name {
+    font-size: 20px;
+    color: #333333;
+}
+
+.handcook-description {
+    font-size: 14px;
+    color: #585858;
+}
+
+/*=====FOOTER======*/
+.footer {}
+
+/*----Branch----*/
+.branch {
+    padding: 45px 0;
+    background: #80b435;
+}
+
+.name-branch {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.footer p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
